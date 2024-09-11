@@ -1,8 +1,35 @@
-# React + Vite
+# QuickGiveAwayApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto para realizar sorteos rapidos de forma facil con una dinamica un tanto diferente
 
-Currently, two official plugins are available:
+## Tabla de Contenidos
+- [Descripción](#Descripción)
+- [Instalación y Ejecucion](#Instalación-y-Ejecucion)
+- [Uso](#Uso)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Descripción
+Aquí puedes dar más detalles sobre tu proyecto, su propósito, y qué problemas resuelve. Puedes agregar imágenes o capturas de pantalla si es relevante.
+
+## Instalación-y-Ejecucion
+
+1. Clona el repositorio
+git clone https://github.com/usuario/nombre-del-proyecto.git
+
+2. Entra en el directorio del proyecto
+cd nombre-del-proyecto
+
+3. Instala las dependencias
+npm install
+
+4. Levanta un servidor local
+npm run dev
+
+5. Abre la aplicacion
+Abre el navegador e introduce http://localhost:5173/
+
+## Uso
+1. Ingresa los participantes
+2. Genera numeros a los participantes, ya sea manual o aleatorios
+3. Sortea
+4. En caso de que no salga el numero ganador, resortear hasta que salga
+5. para reiniciar el sorteo recarga la pagina
